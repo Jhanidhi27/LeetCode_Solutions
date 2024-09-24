@@ -6,6 +6,12 @@ class Solution {
             reversed = reversed * 10 + x % 10;
             x /= 10;
         }
-        return original == reversed;
+        // return original == reversed;
+        if(original==reversed){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
